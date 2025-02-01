@@ -24,7 +24,7 @@
 - Generics: The method challenge2 uses generics with multiple bounds which means that the type X must implement both the Winged and Bipedal interfaces.
 
 **How does this feature manifest?**
-- The generic constraint <X extends Winged & Bipedal> allows any class that implements both interfaces to be passed, not just subclasses of Bird.
+- The generic constraint <X extends Winged & Bipedal> allows any class that implements both interfaces to be passed, not just subclasses of Bird which provides flexibility since it isn't limited to a specific class hierarchy.
 
 
 **How should it be used?**
