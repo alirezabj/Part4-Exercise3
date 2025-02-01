@@ -28,4 +28,4 @@
 
 
 **How should it be used?**
-- When you want to allow flexibility by accepting any type that satisfies certain interface contracts.
+- When you want to allow flexibility by accepting any type that satisfies certain interface contracts regardless of their position in the class hierarchy.
