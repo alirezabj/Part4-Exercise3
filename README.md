@@ -47,6 +47,11 @@
 3. Method signature differences:
    - `challenge1`: The method signature is based on a concrete class (Bird). This approach uses inheritance and polymorphism but limits the method to objects of that specific type.
    - `challenge2`: The method signature uses generics with multiple bounds which makes the method more abstract and adaptable, focusing on behavior rather than type.
+  
+
+## C)
+
+The advantage of `challenge2` is its flexibility and reusability. By using generics with multiple bounds, `challenge2` allows any object that implements both interfaces, regardless of its class hierarchy, to be passed into the method. So now, let's imagine we are building a simulation for a zoo that contains animals and machines (like drones) that can fly and walk. While birds (like Crow) are natural candidates, we may also have machines like Drones that have similar behavior but don’t belong to the Bird class hierarchy. With `challenge2`, we can handle both animals and machines as long as they implement the Winged and Bipedal interfaces. 
 
    
 
