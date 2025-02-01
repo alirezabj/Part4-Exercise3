@@ -11,7 +11,7 @@
 - Inheritance and Polymorphism: The challenge1 method takes a parameter of type Bird which is an abstract class that implements two interfaces Winged and Bipedal, meaning that any subclass of Bird such as Crow, inherits the default methods fly() from Winged and walk() from Bipedal. This feature also demonstrates polymorphism due to the ability to use a single interface (Bird) to represent different subclasses (Crow), allowing method calls like b.fly() and b.walk().
 
 **How does this feature manifest?**
-- The challenge1 method explicitly requires an object of type Bird or its subclass, which inherently has the fly() and walk() methods becasue of the interfaces that Bird implements.
+- The challenge1 method explicitly requires an object of type Bird or its subclass, which inherently has the fly() and walk() methods becasue of the interfaces that Bird implements. Therefore, it can only accept instances of Bird or its subclasses, even if another unrelated class implements both Winged and Bipedal.
 
 
 **How should it be used?**
