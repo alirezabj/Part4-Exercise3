@@ -15,7 +15,7 @@
 
 
 **How should it be used?**
-- When the method is intended to work strictly with a class hierarchy, and additional shared behaviors or properties from the abstract class (Bird) are required.
+- When the method is intended to work strictly with a class hierarchy and additional shared behaviors or properties from the abstract class (Bird) are required.
 
 
 #### `challange2`
