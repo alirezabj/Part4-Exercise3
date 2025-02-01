@@ -43,6 +43,11 @@
 2. Extensibility and Reusability:
    - `challenge1`: This method is tightly coupled to the Bird class hierarchy. If you want to extend this functionality to non-bird objects that can fly and walk, you'd need to modify the method or create new ones.
    - `challenge2`: The use of generics makes this method more reusable. It can work with any object that fits the interface requirements (Winged and Bipedal), not just birds.
+
+3. Method signature differences:
+   - `challenge1`: The method signature is based on a concrete class (Bird). This approach uses inheritance and polymorphism but limits the method to objects of that specific type.
+   - `challenge2`: The method signature uses generics with multiple bounds which makes the method more abstract and adaptable, focusing on behavior rather than type.
+
    
 
 
