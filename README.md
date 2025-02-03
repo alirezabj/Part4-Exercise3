@@ -37,7 +37,7 @@
 #### Functional Differences
 
 1. Type constraints and flexibility:
-   - `challenge1(Bird b)`: This method only accepts an object of type Bird or its subclasses. Therefore, if you have nother class (unrelated to Bird) that implements Winged and Bipedal, you cannot pass it to challenge1, even if it has the required fly() and walk() methods.
+   - `challenge1(Bird b)`: This method only accepts an object of type Bird or its subclasses. Therefore, if you have another class (unrelated to Bird) that implements Winged and Bipedal, you cannot pass it to challenge1, even if it has the required fly() and walk() methods.
    - `challenge2<X extends Winged & Bipedal>(X b)`: This method accepts any type that implements both Winged and Bipedal regardless of whether it belongs to the Bird class hierarchy.
 
 2. Extensibility and Reusability:
